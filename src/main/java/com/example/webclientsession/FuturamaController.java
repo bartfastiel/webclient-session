@@ -12,7 +12,7 @@ public class FuturamaController {
     private final FuturamaService service;
 
     @GetMapping
-    String getFuturamaCharacter() {
+    FuturamaCharacter getFuturamaCharacter() {
         return service.getFuturamaCharacter();
     }
 }
